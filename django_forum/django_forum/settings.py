@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-u*81fm2j2_%e@_u32z8q9#ftv+k4z(3i@pnu59n8vvjd^)%!ze
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -123,6 +123,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,'static files')
+STATICFILES_DIRS = [
+    BASE_DIR/ 'static'
+]
+
 
 cloudinary.config( 
   cloud_name = "dig2qmvpj", 
@@ -131,9 +136,7 @@ cloudinary.config(
   secure = True
 )
 
-STATICFILES_DIRS= [
-    BASE_DIR / 'static'
-]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
