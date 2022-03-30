@@ -10,8 +10,8 @@ body {
 .content {
   max-width: 600px;
   margin: 0 auto;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  border-left: 1px solid rgb(29, 161, 242);
+  border-right: 1px solid rgb(29, 161, 242);
 }
 /* .text h1 {
     margin-left: 24%;
@@ -35,21 +35,21 @@ Post
 
 .post_forum {
   padding: 20px 40px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(29, 161, 242);
 }
 
 .post_forum .name {
   width: 70%;
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #ccc;
   background-color: #e6fef7;
 }
 
 .post_forum textarea {
   width: 70%;
   padding: 20px 10px;
-  border: 1px solid white;
+  border: 1px solid #ccc;
 }
 
 .post_forum button {
@@ -76,7 +76,7 @@ Post
 .content .posts li {
   position: relative;
   display: flex;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(29, 161, 242);
   padding: 20px 40px;
 }
 
@@ -92,7 +92,7 @@ Post
   position: absolute;
   top: 40px;
   right: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(29, 161, 242);
   background-color: white;
   padding: 10px 15px;
   font-size: 13px;
@@ -130,7 +130,7 @@ Post
 }
 
 .head {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(29, 161, 242);
 }
 .logo img {
   width: 12%;
